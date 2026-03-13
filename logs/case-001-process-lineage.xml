@@ -1,0 +1,43 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-03-13T18:26:43.6118509Z" />
+    <EventRecordID>44</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="10168" ThreadID="1444" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>REDACTED-HOST</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-03-13 18:26:43.608</Data>
+    <Data Name="ProcessGuid">{532c5ef2-56e3-69b4-1402-000000000f00}</Data>
+    <Data Name="ProcessId">4984</Data>
+    <Data Name="Image">C:\Program Files\Git\cmd\git.exe</Data>
+    <Data Name="FileVersion">2.53.0.windows.1</Data>
+    <Data Name="Description">Git for Windows</Data>
+    <Data Name="Product">Git</Data>
+    <Data Name="Company">The Git Development Community</Data>
+    <Data Name="OriginalFileName">git.exe</Data>
+    <Data Name="CommandLine">"C:\Program Files\Git\cmd\git.exe" status</Data>
+    <Data Name="CurrentDirectory">C:\Users\redacted\Desktop\Cybersecurity-Monitoring-Lab\</Data>
+    <Data Name="User">LAB\redacted-user</Data>
+    <Data Name="LogonGuid">REDACTED-LOGON-GUID</Data>
+    <Data Name="LogonId">REDACTED-LOGON-ID</Data>
+    <Data Name="TerminalSessionId">REDACTED-SESSION-ID</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=3806A1E58183FDBF9F70E0E4F2FDE61A,SHA256=DA240FE9BC24895B3E04150A4990B8A6FF329ECABCD8F19684C2CC310DA5EF3F,IMPHASH=0991041C9DE5C72802D268A52B7C03AC</Data>
+    <Data Name="ParentProcessGuid">{532c5ef2-4a01-69b4-ab01-000000000f00}</Data>
+    <Data Name="ParentProcessId">7172</Data>
+    <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="ParentCommandLine">"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"</Data>
+    <Data Name="ParentUser">LAB\redacted-user</Data>
+  </EventData>
+</Event>
