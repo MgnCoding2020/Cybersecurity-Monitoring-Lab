@@ -89,6 +89,6 @@ This case demonstrates how command-line DNS utilities appear within Sysmon proce
 
 ----
 ## Evidence Artifact
-[DNS Query](investigations/case-003-dns-query.xml)
+[DNS Query](../logs/case-003-dns-query.xml)
 
 ---
