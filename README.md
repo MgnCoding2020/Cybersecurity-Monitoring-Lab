@@ -9,16 +9,21 @@ In this repository, I document my experience with:
 *   **Event Log Investigation:** Identifying and tracing suspicious behavior within Windows environments.
 *   **Network Traffic Analysis:** Capturing and inspecting packets to understand communication flows.
 *   **Vulnerability Scanning:** Identifying weaknesses and assessing system risks.
-
+----------
 ### Tools & Technologies
 To facilitate data collection and analysis, I am utilizing:
 *   **Sysmon:** For advanced host-level logging and monitoring.
 *   **Wireshark & Nmap:** For network discovery and deep packet inspection.
 *   **Nessus:** For automated vulnerability assessments.
 
+--------
 ### Lab Artifacts
 This lab generates the following outputs for analysis:
-*   **Windows Event Logs** (.evtx)
+*   **Windows Event Logs** (.evtx) (.xml)
 *   **Packet Captures** (.pcap)
 *   **Vulnerability Reports** (PDF/HTML)
 *   **Investigation Case Notes:** Documenting findings and remediation steps.
+
+------
+
+**NOTE** .evtx files won't be displayed due to sensitive information. Redacted xml files will be displaying the event logs for security. 
