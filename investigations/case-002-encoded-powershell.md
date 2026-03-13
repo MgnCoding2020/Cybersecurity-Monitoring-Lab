@@ -1,9 +1,9 @@
 # Case 002: Encoded PowerShell Execution
 
 ## Case Summary
-In this investigation we examined a Sysmon process creation event that captured the execution of PowerShell using the `-EncodedCommand` argument.
+In this investigation, we examined a Sysmon process creation event that captured the execution of PowerShell using the `-EncodedCommand` argument.
 Encoded PowerShell commands are commonly used by attackers to obfuscate scripts and avoid detection.
-The goal was to analyze the command execution, decode the encoded payload, and determine whether the activity was malicious or benign behavior.
+The goal was to analyze the command execution, decode the payload, and determine whether the activity was malicious or benign.
 
 -----
 
@@ -59,15 +59,15 @@ This command simply outputs a message to the PowerShell console and does not per
 
 ## Analysis
 
-These PowerShell encoded commands are frequently associated with malicious activity because they allow the threat actor to hide scripts from basic inspection.
+These PowerShell-encoded commands are frequently associated with malicious activity because they allow the threat actor to hide scripts from basic inspection.
 
-Some common attacker use case include:
+Some common attacker use cases include:
 - Executing obfuscated payload
 - Downloading remote malware
 - Bypassing CLI logging visibility
 - Executing malicious scripts through phishing documents
 
-In this analysis, the encoded payload was intentionally generated within the lab environment to demonstrate how encoded PowerShell appears in Sysmon logs.
+In this analysis, the encoded payload was intentionally generated in the lab environment to demonstrate how it appears in Sysmon logs.
 
 Indicators confirming the activity is benign: 
 - The decoded command performs a simple console output
@@ -78,11 +78,11 @@ Indicators confirming the activity is benign:
 -----
 
 ## Outcome
-The event represents controlled testing activity performed within the cybersecurity monitoring lab environment. No malicious behavior was observed.
+The event represents a controlled testing activity performed within the cybersecurity monitoring lab environment. No malicious behavior was observed.
 
 ----
 
-## Skills Demonstarted
+## Skills Demonstrated
 - Sysmon process creation analysis
 - Detection of encoded PowerShell execution
 - Base64 payload decoding
@@ -93,6 +93,6 @@ The event represents controlled testing activity performed within the cybersecur
 ------
 ## Evidence Artifact
 
-[Encoded PowerShell](case-002-encoded-powershell.xml)
+[Encoded PowerShell](../logs/case-002-encoded-powershell.xml)
 
 -----
