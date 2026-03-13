@@ -74,4 +74,4 @@ The event was determined to be legitimate. The activity was associated with deve
 - Evidence sanitization for public sharing
 
 ## Evidence Artifact
-[Process Lineage](logs/case-001-process-lineage.xml)
+[Process Lineage](../logs/case-001-process-lineage.xml)
