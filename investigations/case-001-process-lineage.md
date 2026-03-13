@@ -1,7 +1,7 @@
 # Case 001: Process Lineage Investigation
 
 ## Case Summary
-In this investigation, I examined a process creation event captured by Sysmon that shows the execution of git.exe from a PowerShell session.
+In this investigation, I examined a Sysmon-captured process creation event showing the execution of git.exe from a PowerShell session.
 The objective of this case is to demonstrate how Sysmon Event ID 1 can be used to identify process lineage and command executions within a Windows environment.
 
 ----
@@ -50,7 +50,7 @@ Understanding normal parent-child relationships can help analysts identify abnor
 ----
 ## Analysis
 
-This observation analysis is consistent with normal developer workflow. The command **git status** was executed within a PowerShell session while working in a repository.
+This observation aligns with a typical developer workflow. The command **git status** was executed within a PowerShell session while working in a repository.
 
 Several indicators help support that this activity is benign: 
 
