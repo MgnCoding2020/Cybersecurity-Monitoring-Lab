@@ -4,7 +4,7 @@
 
 ## Case Summary
 This investigation examines a Sysmon process creation event that captured the execution of the ```nslookup``` utility used to perform a DNS query for the domain ```github.com```.
-DNS activity is monitored during incident investigations because malicious activity frequently relies on DNS to locate command-and-control servers, download payloads, or perform data exfiltration.
+DNS activity is monitored during incident investigations because malicious activity frequently relies on DNS to locate command-and-control servers, download payloads, or exfiltrate data.
 
 The objective of this case was to analyze the execution of the DNS lookup command and understand how DNS activity appears in Sysmon telemetry. 
 
@@ -44,7 +44,7 @@ powershell.exe
 
 This indicates that the DNS query was executed from an interactive PowerShell session.
 
-Understanding process lineage helps analysts determine whether activity was initiated by a user, automated script, or potentially malicious software.
+Understanding process lineage helps analysts determine whether activity was initiated by a user, an automated script, or potentially malicious software.
 
 ----
 ## DNS Activity Analysis
@@ -89,6 +89,6 @@ This case demonstrates how command-line DNS utilities appear within Sysmon proce
 
 ----
 ## Evidence Artifact
-[DNS Query](logs/case-003-dns-query.xml)
+[DNS Query](investigations/case-003-dns-query.xml)
 
 ---
