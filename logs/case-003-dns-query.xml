@@ -1,0 +1,43 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime="2026-03-13T20:19:14.6357439Z" />
+    <EventRecordID>673</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="10168" ThreadID="1444" />
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>REDACTED-HOST</Computer>
+    <Security UserID="S-1-5-18" />
+  </System>
+  <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2026-03-13 20:19:14.619</Data>
+    <Data Name="ProcessGuid">{532c5ef2-7142-69b4-e703-000000000f00}</Data>
+    <Data Name="ProcessId">4324</Data>
+    <Data Name="Image">C:\Windows\System32\nslookup.exe</Data>
+    <Data Name="FileVersion">10.0.19041.1 (WinBuild.160101.0800)</Data>
+    <Data Name="Description">nslookup</Data>
+    <Data Name="Product">Microsoft® Windows® Operating System</Data>
+    <Data Name="Company">Microsoft Corporation</Data>
+    <Data Name="OriginalFileName">nslookup.exe</Data>
+    <Data Name="CommandLine">"C:\Windows\system32\nslookup.exe" github.com</Data>
+    <Data Name="CurrentDirectory">C:\Users\redacted\Desktop\Cybersecurity-Monitoring-Lab\</Data>
+    <Data Name="User">LAB\redacted-user</Data>
+    <Data Name="LogonGuid">REDACTED-LOGON-GUID</Data>
+    <Data Name="LogonId">REDACTED-LOGON-ID</Data>
+    <Data Name="TerminalSessionId">REDACTED-SESSION-ID</Data>
+    <Data Name="IntegrityLevel">High</Data>
+    <Data Name="Hashes">MD5=F2E3950C1023ACF80765C918791999C0,SHA256=55AB032D256ADBE3FDE40CF90FE83BA5EAB591E04AD720161ED8E6EF059CA747,IMPHASH=2C6AC0BEC4117681BA25EAD3FABF0BA1</Data>
+    <Data Name="ParentProcessGuid">{532c5ef2-4a01-69b4-ab01-000000000f00}</Data>
+    <Data Name="ParentProcessId">7172</Data>
+    <Data Name="ParentImage">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name="ParentCommandLine">"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"</Data>
+    <Data Name="ParentUser">LAB\redacted-user</Data>
+  </EventData>
+</Event>
