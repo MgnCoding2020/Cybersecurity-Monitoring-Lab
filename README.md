@@ -26,4 +26,4 @@ This lab generates the following outputs for analysis:
 
 ------
 
-**NOTE** .evtx files won't be displayed due to sensitive information. Redacted xml files will be displaying the event logs for security. 
+**NOTE**: Raw `.evtx` files are not included due to potential sensitive system identifiers. Sanitized `.xml` files are provided instead for safe public review.
