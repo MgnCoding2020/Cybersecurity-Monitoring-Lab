@@ -88,6 +88,12 @@ This case demonstrates how command-line DNS utilities appear within Sysmon proce
 - Safe log sanitization for public sharing
 
 ----
+## MITRE ATT&CK Reference
+
+Technique  
+T1071.004 — Application Layer Protocol: DNS
+
+----
 ## Evidence Artifact
 [DNS Query](../logs/case-003-dns-query.xml)
 
