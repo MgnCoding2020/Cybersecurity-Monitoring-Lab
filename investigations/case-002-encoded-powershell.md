@@ -91,6 +91,13 @@ The event represents a controlled testing activity performed within the cybersec
 - Forensic artifact sanitization for public reporting
 
 ------
+## MITRE ATT&CK Reference
+
+Technique  
+T1027 — Obfuscated Files or Information  
+T1059.001 — Command and Scripting Interpreter: PowerShell
+
+---
 ## Evidence Artifact
 
 [Encoded PowerShell](../logs/case-002-encoded-powershell.xml)
