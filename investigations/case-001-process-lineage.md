@@ -73,5 +73,12 @@ The event was determined to be legitimate. The activity was associated with deve
 - CLI inspection
 - Evidence sanitization for public sharing
 
+---
+## MITRE ATT&CK Reference
+
+Technique  
+T1059.001 — Command and Scripting Interpreter: PowerShell
+
+---
 ## Evidence Artifact
 [Process Lineage](../logs/case-001-process-lineage.xml)
