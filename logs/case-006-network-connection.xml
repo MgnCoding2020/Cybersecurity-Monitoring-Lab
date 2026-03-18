@@ -1,0 +1,38 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+<System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+  <EventID>3</EventID>
+  <Version>5</Version>
+  <Level>4</Level>
+  <Task>3</Task>
+  <Opcode>0</Opcode>
+  <Keywords>0x8000000000000000</Keywords>
+  <TimeCreated SystemTime="2026-03-18T19:33:12.7412076Z" />
+  <EventRecordID>4247</EventRecordID>
+  <Correlation />
+  <Execution ProcessID="3432" ThreadID="4176" />
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+  <Computer>LAB-VM</Computer>
+  <Security UserID="S-1-5-18" />
+</System>
+<EventData>
+  <Data Name="RuleName">-</Data>
+  <Data Name="UtcTime">2026-03-18 19:33:10.725</Data>
+  <Data Name="ProcessGuid">{532c5ef2-fde3-69ba-bd03-000000001100}</Data>
+  <Data Name="ProcessId">3880</Data>
+  <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+  <Data Name="User">LABUSER</Data>
+  <Data Name="Protocol">tcp</Data>
+  <Data Name="Initiated">true</Data>
+  <Data Name="SourceIsIpv6">false</Data>
+  <Data Name="SourceIp">10.0.0.25</Data>
+  <Data Name="SourceHostname">LAB-VM.local</Data>
+  <Data Name="SourcePort">50048</Data>
+  <Data Name="SourcePortName">-</Data>
+  <Data Name="DestinationIsIpv6">false</Data>
+  <Data Name="DestinationIp">104.18.27.120</Data>
+  <Data Name="DestinationHostname">-</Data>
+  <Data Name="DestinationPort">443</Data>
+  <Data Name="DestinationPortName">https</Data>
+</EventData>
+</Event>
