@@ -1,0 +1,181 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    Microsoft_02:84:01    Microsoft_a8:14:16    ARP      42     Who has 172.27.48.1? Tell 172.27.63.79
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000283800    Microsoft_a8:14:16    Microsoft_02:84:01    ARP      42     172.27.48.1 is at 00:15:5d:a8:14:16
+
+Frame 2: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 36.105651900   172.27.63.79          172.27.48.1           DNS      71     Standard query 0x9d4e A example.com
+
+Frame 3: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 172.27.48.1
+User Datagram Protocol, Src Port: 50979, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 36.120802600   172.27.48.1           172.27.63.79          DNS      114    Standard query response 0x9d4e A example.com A 104.18.26.120 A 104.18.27.120
+
+Frame 4: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 172.27.48.1, Dst: 172.27.63.79
+User Datagram Protocol, Src Port: 53, Dst Port: 50979
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 36.149836000   172.27.63.79          104.18.26.120         ICMP     74     Echo (ping) request  id=0x0001, seq=1/256, ttl=128 (reply in 6)
+
+Frame 5: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.18.26.120
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 36.160825400   104.18.26.120         172.27.63.79          ICMP     74     Echo (ping) reply    id=0x0001, seq=1/256, ttl=56 (request in 5)
+
+Frame 6: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 104.18.26.120, Dst: 172.27.63.79
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 37.172241100   172.27.63.79          104.18.26.120         ICMP     74     Echo (ping) request  id=0x0001, seq=2/512, ttl=128 (reply in 8)
+
+Frame 7: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.18.26.120
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 37.186840300   104.18.26.120         172.27.63.79          ICMP     74     Echo (ping) reply    id=0x0001, seq=2/512, ttl=56 (request in 7)
+
+Frame 8: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 104.18.26.120, Dst: 172.27.63.79
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 38.203148200   172.27.63.79          104.18.26.120         ICMP     74     Echo (ping) request  id=0x0001, seq=3/768, ttl=128 (reply in 10)
+
+Frame 9: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.18.26.120
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 38.214344500   104.18.26.120         172.27.63.79          ICMP     74     Echo (ping) reply    id=0x0001, seq=3/768, ttl=56 (request in 9)
+
+Frame 10: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 104.18.26.120, Dst: 172.27.63.79
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 39.219700800   172.27.63.79          104.18.26.120         ICMP     74     Echo (ping) request  id=0x0001, seq=4/1024, ttl=128 (reply in 12)
+
+Frame 11: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.18.26.120
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 39.231712200   104.18.26.120         172.27.63.79          ICMP     74     Echo (ping) reply    id=0x0001, seq=4/1024, ttl=56 (request in 11)
+
+Frame 12: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 104.18.26.120, Dst: 172.27.63.79
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 41.000146600   Microsoft_02:84:01    Microsoft_a8:14:16    ARP      42     Who has 172.27.48.1? Tell 172.27.63.79
+
+Frame 13: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 41.000646100   Microsoft_a8:14:16    Microsoft_02:84:01    ARP      42     172.27.48.1 is at 00:15:5d:a8:14:16
+
+Frame 14: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 45.579104100   172.27.63.79          104.26.11.240         TCP      54     50336 → 443 [FIN, ACK] Seq=1 Ack=1 Win=1021 Len=0
+
+Frame 15: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.26.11.240
+Transmission Control Protocol, Src Port: 50336, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 45.592642600   104.26.11.240         172.27.63.79          TCP      54     443 → 50336 [FIN, ACK] Seq=1 Ack=2 Win=16 Len=0
+
+Frame 16: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 104.26.11.240, Dst: 172.27.63.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 50336, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 45.592695700   172.27.63.79          104.26.11.240         TCP      54     50336 → 443 [ACK] Seq=2 Ack=2 Win=1021 Len=0
+
+Frame 17: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 104.26.11.240
+Transmission Control Protocol, Src Port: 50336, Dst Port: 443, Seq: 2, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 45.687770500   172.27.63.79          142.251.34.131        TCP      54     50337 → 80 [FIN, ACK] Seq=1 Ack=1 Win=1021 Len=0
+
+Frame 18: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 142.251.34.131
+Transmission Control Protocol, Src Port: 50337, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 45.699908800   142.251.34.131        172.27.63.79          TCP      54     80 → 50337 [FIN, ACK] Seq=1 Ack=2 Win=1054 Len=0
+
+Frame 19: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 142.251.34.131, Dst: 172.27.63.79
+Transmission Control Protocol, Src Port: 80, Dst Port: 50337, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 45.699981600   172.27.63.79          142.251.34.131        TCP      54     50337 → 80 [ACK] Seq=2 Ack=2 Win=1021 Len=0
+
+Frame 20: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 142.251.34.131
+Transmission Control Protocol, Src Port: 50337, Dst Port: 80, Seq: 2, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 54.172727800   172.27.63.79          20.42.65.85           TCP      54     50338 → 443 [FIN, ACK] Seq=1 Ack=1 Win=1020 Len=0
+
+Frame 21: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 20.42.65.85
+Transmission Control Protocol, Src Port: 50338, Dst Port: 443, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 54.207175200   20.42.65.85           172.27.63.79          TCP      54     443 → 50338 [FIN, ACK] Seq=1 Ack=2 Win=16385 Len=0
+
+Frame 22: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_a8:14:16 (00:15:5d:a8:14:16), Dst: Microsoft_02:84:01 (00:15:5d:02:84:01)
+Internet Protocol Version 4, Src: 20.42.65.85, Dst: 172.27.63.79
+Transmission Control Protocol, Src Port: 443, Dst Port: 50338, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 54.207216800   172.27.63.79          20.42.65.85           TCP      54     50338 → 443 [ACK] Seq=2 Ack=2 Win=1020 Len=0
+
+Frame 23: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{459DA197-6465-4E69-B21D-0D080C876A4C}, id 0
+Ethernet II, Src: Microsoft_02:84:01 (00:15:5d:02:84:01), Dst: Microsoft_a8:14:16 (00:15:5d:a8:14:16)
+Internet Protocol Version 4, Src: 172.27.63.79, Dst: 20.42.65.85
+Transmission Control Protocol, Src Port: 50338, Dst Port: 443, Seq: 2, Ack: 2, Len: 0
