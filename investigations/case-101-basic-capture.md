@@ -86,4 +86,5 @@ T1046 — Network Service Discovery
 
 ## Evidence Artifact
 
-[Wireshark Capture](../pcaps/case-101-basic-capture.pcapng)
+- PCAP - [Wireshark Capture](../pcaps/case-101-basic-capture.pcapng)
+- Readable [Packet Summary](../logs/case-101-basic-capture.txt)
